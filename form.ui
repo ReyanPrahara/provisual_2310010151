@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>main</class>
+ <widget class="QMainWindow" name="main">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>main</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <addaction name="actionKebun"/>
+    <addaction name="actionTenagaKerja"/>
+    <addaction name="actionProduktivitas"/>
+    <addaction name="actionPremi"/>
+   </widget>
+   <addaction name="menuMenu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionKebun">
+   <property name="text">
+    <string>Form Kebun</string>
+   </property>
+  </action>
+  <action name="actionTenagaKerja">
+   <property name="text">
+    <string>Form Tenaga Kerja</string>
+   </property>
+  </action>
+  <action name="actionProduktivitas">
+   <property name="text">
+    <string>Form Produktivitas</string>
+   </property>
+  </action>
+  <action name="actionPremi">
+   <property name="text">
+    <string>Form Premi</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

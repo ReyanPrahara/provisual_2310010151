@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormTenagaKerja</class>
+ <widget class="QWidget" name="FormTenagaKerja">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>650</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form Tenaga Kerja</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="labelNama">
+       <property name="text">
+        <string>Nama</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="editNama"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="labelUmur">
+       <property name="text">
+        <string>Umur</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="editUmur"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="labelPendidikan">
+       <property name="text">
+        <string>Pendidikan</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QComboBox" name="cmbPendidikan">
+       <item>
+        <property name="text">
+         <string>SMP</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>SMA</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="labelLama">
+       <property name="text">
+        <string>Lama Bekerja (Tahun)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="editLamaBekerja"/>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="labelIdKebun">
+       <property name="text">
+        <string>ID Kebun</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="editIdKebun"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="buttonLayout">
+     <item>
+      <widget class="QPushButton" name="btnSimpan">
+       <property name="text">
+        <string>Simpan</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnUbah">
+       <property name="text">
+        <string>Ubah</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnHapus">
+       <property name="text">
+        <string>Hapus</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QTableWidget" name="tabelTenagaKerja">
+     <property name="columnCount">
+      <number>6</number>
+     </property>
+     <column>
+      <property name="text">
+       <string>ID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Nama</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Umur</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Pendidikan</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Lama Bekerja</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>ID Kebun</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

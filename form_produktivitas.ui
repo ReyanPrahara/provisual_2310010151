@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormProduktivitas</class>
+ <widget class="QWidget" name="FormProduktivitas">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>593</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form Produktivitas</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="labelTahun">
+       <property name="text">
+        <string>Tahun</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="editTahun"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="labelProduktivitas">
+       <property name="text">
+        <string>Produktivitas (Ton/Ha)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="editProduktivitas"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="labelIdKebun">
+       <property name="text">
+        <string>ID Kebun</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="editIdKebun"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="buttonLayout">
+     <item>
+      <widget class="QPushButton" name="btnSimpan">
+       <property name="text">
+        <string>Simpan</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnUbah">
+       <property name="text">
+        <string>Ubah</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnHapus">
+       <property name="text">
+        <string>Hapus</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QTableWidget" name="tabelProduktivitas">
+     <property name="columnCount">
+      <number>4</number>
+     </property>
+     <column>
+      <property name="text">
+       <string>ID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Tahun</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Produktivitas</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>ID Kebun</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormKebun</class>
+ <widget class="QWidget" name="FormKebun">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form Data Kebun</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="labelNama">
+       <property name="text">
+        <string>Nama Kebun</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="editNamaKebun"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="labelDivisi">
+       <property name="text">
+        <string>Divisi</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="editDivisi"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="labelLuas">
+       <property name="text">
+        <string>Luas Lahan (Ha)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="editLuasLahan"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="buttonLayout">
+     <item>
+      <widget class="QPushButton" name="btnSimpan">
+       <property name="text">
+        <string>Simpan</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnUbah">
+       <property name="text">
+        <string>Ubah</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnHapus">
+       <property name="text">
+        <string>Hapus</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QTableWidget" name="tabelKebun">
+     <property name="rowCount">
+      <number>0</number>
+     </property>
+     <property name="columnCount">
+      <number>4</number>
+     </property>
+     <column>
+      <property name="text">
+       <string>ID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Nama Kebun</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Divisi</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Luas Lahan</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

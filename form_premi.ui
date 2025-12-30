@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormPremi</class>
+ <widget class="QWidget" name="FormPremi">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>523</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form Data Premi</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="labelTenaga">
+       <property name="text">
+        <string>ID Tenaga Kerja</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="editIdTenaga"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="labelProduktivitas">
+       <property name="text">
+        <string>ID Produktivitas</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="editIdProduktivitas"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="labelPremi">
+       <property name="text">
+        <string>Premi Bulanan</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="editPremiBulanan"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="buttonLayout">
+     <item>
+      <widget class="QPushButton" name="btnSimpan">
+       <property name="text">
+        <string>Simpan</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnUbah">
+       <property name="text">
+        <string>Ubah</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnHapus">
+       <property name="text">
+        <string>Hapus</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QTableWidget" name="tabelPremi">
+     <property name="columnCount">
+      <number>4</number>
+     </property>
+     <column>
+      <property name="text">
+       <string>ID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>ID Tenaga</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>ID Produktivitas</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Premi Bulanan</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
